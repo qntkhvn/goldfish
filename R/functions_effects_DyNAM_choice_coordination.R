@@ -43,7 +43,7 @@ update_DyNAM_choice_coordination_indeg <- function(
     weighted = weighted, transformFun = transformFun
   )
 
-outdeg -------------------------------------------------------------------
+# outdeg -------------------------------------------------------------------
 update_DyNAM_choice_coordination_outdeg <- function(
   network,
   sender, receiver, replace,
